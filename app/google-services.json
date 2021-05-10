@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "548278509179",
+    "firebase_url": "https://szpitalapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "szpitalapp",
+    "storage_bucket": "szpitalapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548278509179:android:dc66c82e4b013f8ac2ccde",
+        "android_client_info": {
+          "package_name": "com.example.szpitalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548278509179-7o9el93738pf56g5gnqpm0fg7ojah6vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.szpitalapp",
+            "certificate_hash": "c496e21f6304b92ee06ba85bfd603718071c86a6"
+          }
+        },
+        {
+          "client_id": "548278509179-jfgc809ae8o8m0bfatoraote9amua620.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdH1HJr5feMEIGdNndK48vdcGWuFB9REk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548278509179-jfgc809ae8o8m0bfatoraote9amua620.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

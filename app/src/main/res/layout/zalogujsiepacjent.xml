@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/startimg"
+    tools:context=".zalogujsiepacjent">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="350dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="577dp"
+        android:text="Wpisz swój adres email oraz hasło aby się zalogować."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <Button
+        android:id="@+id/zalogujsiebutton2"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="176dp"
+        android:background="#A3FFFFFF"
+        android:text="Zaloguj się"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="283dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="408dp"
+        android:background="#A3BB86FC"
+        android:ems="10"
+        android:hint="Wpisz tutaj swój adres email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="282dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="437dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="325dp"
+        android:background="#A4BB86FC"
+        android:ems="10"
+        android:hint="Wpisz tutaj swoje hasło"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cofnij3"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="93dp"
+        android:background="#A3FFFFFF"
+        android:text="cofnij"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/startimg"
+    tools:context=".pomyslniezarejestrowanopacjent">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="356dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="577dp"
+        android:text="Pomyślnie zarejestrowano twój profil pacjenta! Możesz się teraz zalogować klikając przycisk poniżej!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.319" />
+
+    <Button
+        android:id="@+id/zalogujsiebutton2"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="355dp"
+        android:background="#A3FFFFFF"
+        android:text="Zaloguj się"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

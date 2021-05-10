@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/startimg"
+    tools:context=".profilpacjenta">
+
+
+    <Button
+        android:id="@+id/sprawdzreceptybutton"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="290dp"
+        android:background="#A3FFFFFF"
+        android:text="Sprawdz recepty"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/umowwizytybutton"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="470dp"
+        android:background="#A3FFFFFF"
+        android:text="Umów się na wizytę"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="314dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="577dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/wyloguj"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="205dp"
+        android:background="#A3FFFFFF"
+        android:text="Wyloguj"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sprawdzwynikibadan"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="379dp"
+        android:background="#A3FFFFFF"
+        android:text="Sprawdz wyniki badań"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
