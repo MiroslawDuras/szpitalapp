@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Szpitalapp">
-        <activity android:name=".profilpacjenta"></activity>
+        <activity android:name=".jp"></activity>
+        <activity android:name=".profilpacjenta" />
         <activity android:name=".profillekarza" />
         <activity android:name=".pomyslniezarejestrowanopacjent" />
         <activity android:name=".pomyslniezarejestrowanolekarz" />
